@@ -20,3 +20,8 @@ UI Components:
 - Live Classes: Scheduling interface and virtual classroom UI for real-time sessions.
 - Instructor Panel: Tools to upload materials, monitor learner progress, and respond to discussions.
 - Mobile-Friendly Design: Responsive UI with scalable fonts, touch-friendly controls, and offline-acce
+
+
+**Output:
+![Image](https://github.com/user-attachments/assets/10fb3214-f418-40ac-ac83-e0cf111bc0a8)
+![Image](https://github.com/user-attachments/assets/247b2b91-b93d-4e08-8a79-1475a70480cd)
