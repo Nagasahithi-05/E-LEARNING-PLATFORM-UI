@@ -1,0 +1,155 @@
+/* Reset & Base */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fbfc;
+  color: #333;
+}
+
+header {
+  background: #045c78;
+  color: white;
+  padding: 25px 0;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #e0f7fa;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd54f;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+/* Courses Section */
+#courses {
+  background: #ffffff;
+  padding: 40px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  max-width: 1100px;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.course-card {
+  background: #e0f7fa;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card h3 {
+  color: #006064;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #00796b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+.badge {
+  background: #ff7043;
+  color: white;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 5px;
+  margin-left: 8px;
+}
+
+/* Progress Section */
+#progress {
+  background: #f1f8e9;
+  margin: 20px auto;
+  padding: 40px;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.progress-tracker {
+  font-size: 16px;
+  line-height: 2;
+}
+
+/* Videos Section */
+#videos {
+  background: #ffffff;
+  margin: 20px auto;
+  padding: 40px;
+  max-width: 1100px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.video-gallery {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.video-gallery iframe {
+  width: 360px;
+  height: 215px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+/* Footer */
+footer {
+  background: #045c78;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+

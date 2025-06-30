@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LearnHub - E-Learning Platform</title>
+  <link rel="stylesheet" href="E learning.css" />
+</head>
+<body>
+  <header>
+    <h1>📘 LearnHub</h1>
+    <nav>
+      <ul>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#progress">Progress</a></li>
+        <li><a href="#videos">Videos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="courses">
+      <h2>📚 Featured Courses</h2>
+      <div class="course-list">
+        <div class="course-card">
+          <h3>Web Development <span class="badge">New</span></h3>
+          <p>Learn HTML, CSS, and JavaScript to build stunning websites.</p>
+          <p><strong>Duration:</strong> 4 Weeks</p>
+          <button onclick="startCourse('Web Development')">Start Course</button>
+        </div>
+        <div class="course-card">
+          <h3>Python Programming</h3>
+          <p>Master Python for data science, automation, and AI.</p>
+          <p><strong>Duration:</strong> 6 Weeks</p>
+          <button onclick="startCourse('Python Programming')">Start Course</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="progress">
+      <h2>📈 Your Progress</h2>
+      <div class="progress-tracker">
+        <label>Web Development: <progress value="70" max="100"></progress> 70%</label><br>
+        <label>Python Programming: <progress value="40" max="100"></progress> 40%</label>
+      </div>
+    </section>
+
+    <section id="videos">
+      <h2>🎥 Learning Videos</h2>
+      <div class="video-gallery">
+        <iframe src="https://www.youtube.com/embed/dD2EISBDjWM" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/rfscVS0vtbw" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 LearnHub. All rights reserved.</p>
+  </footer>
+
+  <script src="E learning.js"></script>
+</body>
+</html>
+
+
